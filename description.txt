@@ -1,0 +1,46 @@
+//spaceX
+ Simplified Rocket TDD Challenge
+
+ Welcome, engineers! Your task is to build a rocket simulator using Test-Driven Development (TDD).
+ Each stage introduces new requirements. Write tests first, then write the code to make them pass.
+
+ Stage 1: Basic Rocket Setup
+
+ Objective: Create a basic rocket and get it ready for launch.
+
+ Requirements:
+
+ Rocket Properties: A rocket has a model (e.g., "Explorer-1") and a base_mass (in kg).
+
+ Fueling: A rocket has a fuel_level (0–100). It must be at 100 to launch.
+
+ System Check: Create a function to verify_readiness(). It should return true only if the rocket's fuel_level is 100.
+
+ Stage 2: Adding Engines
+Objective: Equip the rocket with an engine that determines its launch capability.
+Requirements:
+Engine Types: A rocket must have an engine. Engines add to the rocket's mass and provide Lifting power.
+Alpha Engine: Adds 5.000 kg mass. Provides 50,000 kg of lift power.
+Beta Engine: Adds 10,000 kg mass. Provides 150,000 kg of lift power.
+Launch Massi A rocket now has a Launch_mot
+bat mats plus its engine's mass.
+X
+Launch Sequence: Create a function to start_irtofti).
+It must first confirm the rocket is ready.
+It must then check if the rocket is light enough for the engine to Lift.
+If all checks pass, it should initiate the launch sequence and update the rocket's status. Otherwise, it should indicate a failure.
+
+Stage 3: Loading Cargo
+Objective: Allow rockets to carry cargo, which adds to their total mass.
+Requirements:
+Cargo Hold: A rocket has a way to track its cargo.
+Loading: Create a function to load_item(item_mass). This function adds cargo to the rocket.
+Launch Impact: The start_Liftoff() function must now account for the extra mass from cargo.|
+
+Stage 4: Mission Report
+Objective: Report the final status of the mission after a launch attempt
+Requirements:
+Mission outcomes: A launch can result in diff outcomes
+Risky launches: Some launches are considered "risky" and may not succeed
+Launch outcome: The start_liftoff() func should be updated to handle both normal and risky launches
+Final report: Create a function get_mission_summary() that reports the outcome of the mission.//write test cases for the above
